@@ -10,7 +10,7 @@
 // 注意：路由的根路径为docs文件夹，静态资源（图片）的根路径为public文件夹
 
 module.exports = {
-  base: ".",
+  // base: ".",
   title: "65man'blog",
   description: "学习笔记",
   // 网页标签的图标

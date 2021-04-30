@@ -14,4 +14,4 @@ run("git commit -m 'deploy'")
 
 run('git push -f git@github.com:65man/65man.github.io.git master')
 
-run('cd -')
+// run('cd -')

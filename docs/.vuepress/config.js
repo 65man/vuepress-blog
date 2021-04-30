@@ -12,19 +12,27 @@
 module.exports = {
   // base: ".",
   title: "65man'blog",
-  description: "学习笔记",
+  description: '学习笔记',
   // 网页标签的图标
-  head: [["link", { res: "icon", href: "/images/logo.png" }]],
+  head: [['link', { res: 'icon', href: '/images/logo.png' }]],
   themeConfig: {
     // 左上角logo
-    logo: "/images/logo.jpg",
+    logo: '/images/logo.jpg',
     // 导航栏配置
     nav: [
-      { text: "首页", link: "/" },
-      { text: "技术文档", link: "/guide/interview/" },
-      { text: "外部链接", link: "https://www.baidu.com" },
+      { text: '首页', link: '/' },
+      {
+        text: '面试宝典',
+        items: [
+          { text: 'css相关', link: '/guide/interview/css/' },
+          { text: 'js相关', link: '/guide/interview/js/' },
+          { text: 'vue相关', link: '/guide/interview/vue/' },
+          { text: 'webgl', link: '/webgl/' }
+        ]
+      },
+      { text: '外部链接', link: 'https://www.baidu.com' }
     ],
     // 侧边栏配置
-    sidebar: "auto",
-  },
-};
+    sidebar: 'auto'
+  }
+}

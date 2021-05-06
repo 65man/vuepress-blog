@@ -27,7 +27,7 @@ module.exports = {
           { text: 'css相关', link: '/guide/interview/css/' },
           { text: 'js相关', link: '/guide/interview/js/' },
           { text: 'vue相关', link: '/guide/interview/vue/' },
-          { text: 'webgl', link: '/webgl/' }
+          { text: '浏览器网络相关', link: '/guide/interview/net/' }
         ]
       },
       { text: '外部链接', link: 'https://www.baidu.com' }
